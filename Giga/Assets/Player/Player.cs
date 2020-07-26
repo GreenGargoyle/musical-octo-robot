@@ -41,6 +41,7 @@ namespace Player
         }
         #endregion
 
+        //From the IDamageable interface.
         public void takeDamage(int damage)
         {
             currentHealth -= damage;
