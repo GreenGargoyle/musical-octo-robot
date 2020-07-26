@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace HUD
+namespace CoreScripts.HUD
 {
 	public class HealthBar : MonoBehaviour
 	{
