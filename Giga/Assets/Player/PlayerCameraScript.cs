@@ -37,7 +37,7 @@ namespace Player
         {
             if (target == null)
             {
-                warn("No target provided to the PlayerCameraScript.");
+                GameLogger.warn("No target provided to the PlayerCameraScript.");
                 target = new GameObject().transform;
             }
         }
